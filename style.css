@@ -1,0 +1,121 @@
+header{
+    background: var(--Color-Green-100, #74C69D);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 123px;
+}
+header .on{
+    display: flex;
+    justify-content: space-around;
+    color: var(--Color-White-100, #FFF);
+font-size: 20px;
+font-weight: 400;
+line-height: 125%; /* 25px */
+    width: 480px;
+}
+.section-1 b{
+    color: var(--Color-Green-100, #74C69D);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; /* 20px */
+}
+.section-1{
+    margin-top: 72px;
+    text-align: center;
+}
+.section-1 h1{
+    color: var(--Text_Black, #000);
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; 
+}
+.section-1 p{
+    color: var(--Text_Black, #000);
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; 
+}
+.section-2{
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.first{
+    width: 339px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+padding: 46px 30px;
+    height: 500px;
+}
+.second{
+    width: 339px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    height: 500px;
+    padding: 46px 30px;
+}
+.third{
+    width: 339px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    height: 500px;
+    padding: 46px 30px;
+}
+.btn1{
+    margin-top: 32px;
+    width: 170px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 5px;
+background: var(--color-dark, #212529);
+color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; 
+}
+.section-2 b{
+    color: #000;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; 
+}
+.main{
+    width: 279px;
+    color: var(--Color-Dark-50, rgba(33, 37, 41, 0.50));
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; 
+margin-left: 36px;
+}
+footer{
+    margin-top: 106px;
+    display: flex;
+    justify-content: space-around;
+    background: #74C69D;
+    height: 125px;
+    align-items: center;
+}
+footer p{
+    color: var(--Color-White-100, #FFF);
+text-align: right;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 25px */
+width: 320px;
+}
+footer .left{
+    width: 320px;
+}
